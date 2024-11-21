@@ -1,4 +1,3 @@
-// Variables for the DOM elements
 
 const words = ["dependent", "dog", "superficial", "admit", "juice", "javascript", "developer", "airplane", "great", "fun", "manipulate", "cat", "transition", "school", "computer", "programming", "drag", "loving", "north"];
 let word_one = document.getElementById("word");
@@ -51,25 +50,3 @@ document.getElementById("restart-btn");
 endGameContainer.addEventListener("click", function () {
     location.reload(); 
 });
-
-/*let input = document.getElementById("text");
-let word_one = document.getElementById("word");
-let i = 0;
-let g = 1;
-word_one.innerHTML = secret_words[i];
-input.addEventListener("keydown", function (e)
-{
-    if(e.key == "Enter" && input.value == secret_words[i])
-    {
-        if(i < secret_words.length - 1)
-        {
-            i++;
-        }
-
-        word_one.innerHTML = secret_words[g]
-        input.value = "";
-    }
-});
-/*let i = 0;         word_one.innerHTML = secret_words[i].shuffle();
-word_one = document.getElementById("word");
-word_one.innerHTML = secret_words[i];*/
